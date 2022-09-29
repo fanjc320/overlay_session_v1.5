@@ -1,0 +1,119 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp",
+  "buildDirectory": "D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_FIND_ROOT_PATH\u003dD:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462",
+    "-DANDROID_PLATFORM\u003dandroid-29",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d29",
+    "-DANDROID_STL\u003dc++_shared"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Error at CMakeLists.txt:24 (find_package):\n  Could not find a package configuration file provided by \"loader\" with any\n  of the following names:\n\n    loaderConfig.cmake\n    loader-config.cmake\n\n  Add the installation prefix of \"loader\" to CMAKE_PREFIX_PATH or set\n  \"loader_DIR\" to a directory containing one of the above files.  If \"loader\"\n  provides a separate development package or SDK, be sure it has been\n  installed.\n\n","title":"Error","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Error at D:\projs\OverlaySession_v1.5\OverlaySession\app\src\main\cpp\CMakeLists.txt:24 (find_package):
+  Could not find a package configuration file provided by "loader" with any
+  of the following names:
+
+    loaderConfig.cmake
+    loader-config.cmake
+
+  Add the installation prefix of "loader" to CMAKE_PREFIX_PATH or set
+  "loader_DIR" to a directory containing one of the above files.  If "loader"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+CMAKE SERVER: CMake Error at D:\projs\OverlaySession_v1.5\OverlaySession\app\src\main\cpp\CMakeLists.txt:24 (find_package):
+  Could not find a package configuration file provided by "loader" with any
+  of the following names:
+
+    loaderConfig.cmake
+    loader-config.cmake
+
+  Add the installation prefix of "loader" to CMAKE_PREFIX_PATH or set
+  "loader_DIR" to a directory containing one of the above files.  If "loader"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring incomplete, errors occurred!\nSee also \"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log\".","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring incomplete, errors occurred!
+See also "D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log".
+CMAKE SERVER: Configuring incomplete, errors occurred!
+See also "D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log".
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","errorMessage":"Configuration failed.","inReplyTo":"configure","type":"error"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuration failed.

@@ -45,14 +45,14 @@ Java_com_qualcomm_qti_openxr_overlaysession_OverlayServiceImpl_nativeShutdown(
 extern "C" JNIEXPORT void JNICALL
 Java_com_qualcomm_qti_openxr_overlaysession_OverlayServiceImpl_nativeStartOverlay(
     JNIEnv *env, jobject thiz) {
-  // LOGI("nativeStartOverlay");
+   LOGI("nativeStartOverlay");
   OpenXRApp::getInstance().startOverlay();
 }
 
 extern "C" JNIEXPORT void JNICALL
 Java_com_qualcomm_qti_openxr_overlaysession_OverlayServiceImpl_nativeStopOverlay(
     JNIEnv *env, jobject thiz) {
-  // LOGI("nativeStopOverlay");
+   LOGI("nativeStopOverlay");
   OpenXRApp::getInstance().endOverlay();
 }
 

@@ -5,17 +5,24 @@
 
 cmake_minimum_required(VERSION 3.10.2)
 
-set(QXR_ROOT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../../)
-set(QXR_COMPOSITOR_DIR ${QXR_ROOT_PATH}/qxr_compositor/)
+#set(QXR_ROOT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../../)
+set(QXR_ROOT_PATH ${CMAKE_CURRENT_SOURCE_DIR})
+set(QXR_COMPOSITOR_DIR ${QXR_ROOT_PATH}/)
 
-set(XR_LOADER_DISTRIBUTION_DIR ${QXR_COMPOSITOR_DIR}/ThirdParty/OpenXR-SDK/)
-add_library(lib_xr_loader SHARED IMPORTED)
-set_target_properties(lib_xr_loader PROPERTIES IMPORTED_LOCATION
-        ${XR_LOADER_DISTRIBUTION_DIR}/src/loader/build/intermediates/cmake/debug/obj/${ANDROID_ABI}/libopenxr_loader.so)
+set(XR_LOADER_DISTRIBUTION_DIR ${QXR_COMPOSITOR_DIR})
+#add_library(lib_xr_loader SHARED IMPORTED)
+#set_target_properties(lib_xr_loader PROPERTIES IMPORTED_LOCATION
+#        ${XR_LOADER_DISTRIBUTION_DIR}/src/loader/build/intermediates/cmake/debug/obj/${ANDROID_ABI}/libopenxr_loader.so)
 
 # Declares and names the project.
 
+
+
 project("overlaysession")
+
+set(XR_LOADER_DISTRIBUTION_DIR ${QXR_COMPOSITOR_DIR}/)
+find_package(loader REQUIRED CONFIG)
+
 
 set(${CMAKE_C_FLAGS}, "${CMAKE_C_FLAGS}")
 add_library(native_app_glue STATIC
@@ -73,7 +80,7 @@ target_link_libraries(qxr-common-gl PRIVATE
         qxr-common-data-structures)
 
 # app-common module
-set(APPCOMMON_SOURCE_DIR ${QXR_ROOT_PATH}/Samples/AppCommon/cpp)
+set(APPCOMMON_SOURCE_DIR ${QXR_ROOT_PATH}/AppCommon/cpp)
 add_library(qxr-app-common STATIC ${APPCOMMON_SOURCE_DIR}/AppCommon.cpp)
 target_include_directories(qxr-app-common PUBLIC
         ${APPCOMMON_SOURCE_DIR}/)
@@ -81,17 +88,21 @@ target_link_libraries(qxr-app-common PRIVATE
         EGL
         native_app_glue
         qxr-common-log
-        qxr-thirdparty-openxr
+#        qxr-thirdparty-openxr
+        loader::openxr_loader
         qxr-thirdparty-glm
         )
 
 
 # thirdparty-imgui
 set(THIRDPARTY_IMGUI_SOURCE_FILES
-        ${QXR_COMPOSITOR_DIR}/XrCompositor/compositor/src/main/cpp/src/imgui_impl_opengl3.cpp
+#        ${QXR_COMPOSITOR_DIR}/XrCompositor/compositor/src/main/cpp/src/imgui_impl_opengl3.cpp
+        ${QXR_COMPOSITOR_DIR}/ThirdParty/imgui/backends/imgui_impl_opengl3.cpp
+        ${QXR_COMPOSITOR_DIR}/ThirdParty/imgui/backends/imgui_impl_android.cpp
         ${QXR_COMPOSITOR_DIR}/ThirdParty/imgui/imgui.cpp
         ${QXR_COMPOSITOR_DIR}/ThirdParty/imgui/imgui_draw.cpp
-        ${QXR_COMPOSITOR_DIR}/ThirdParty/imgui/imgui_widgets.cpp)
+        ${QXR_COMPOSITOR_DIR}/ThirdParty/imgui/imgui_widgets.cpp
+        ${QXR_COMPOSITOR_DIR}/ThirdParty/imgui/imgui_tables.cpp)
 add_library(qxr-thirdparty-imgui STATIC ${THIRDPARTY_IMGUI_SOURCE_FILES})
 target_include_directories(qxr-thirdparty-imgui
         PUBLIC
@@ -140,11 +151,12 @@ target_link_libraries( # Specifies the target library.
                        native_app_glue
                        EGL
                         GLESv3
-                        lib_xr_loader
+#                        lib_xr_loader
+        loader::openxr_loader
                         qxr-app-common
                         qxr-common-gl
                         qxr-common-data-structures
                         qxr-thirdparty-tinyobj
                         qxr-thirdparty-glm
-                        qxr-thirdparty-openxr
+#                        qxr-thirdparty-openxr
                         qxr-thirdparty-imgui)

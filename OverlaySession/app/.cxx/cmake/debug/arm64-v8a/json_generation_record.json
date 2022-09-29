@@ -1,0 +1,254 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 29 min SDK version: arm64-v8a",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027C:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.18.1\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.22.1\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json due to:",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\include",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\include\\openxr",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\include\\openxr\\openxr.h",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\include\\openxr\\openxr_platform.h",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\include\\openxr\\openxr_platform_defines.h",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\include\\openxr\\openxr_reflection.h",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\libs",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\libs\\android.arm64-v8a",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\libs\\android.arm64-v8a\\abi.json",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\libs\\android.arm64-v8a\\libopenxr_loader.so",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\modules\\openxr_loader\\module.json",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\8728e1ccf3f65dd248e4f1f9c22e7661\\loader-release\\prefab\\prefab.json",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- prefab configuration has changed",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "keeping json folder \u0027D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\.cxx\\cmake\\debug\\arm64-v8a\u0027 but regenerating project",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : C:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe\narguments : \n-HD:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\n-DCMAKE_FIND_ROOT_PATH\u003dD:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\n-DANDROID_PLATFORM\u003dandroid-29\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d29\n-DANDROID_STL\u003dc++_shared\n-BD:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\.cxx\\cmake\\debug\\arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp\",\n  \"buildDirectory\": \"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003dD:\\\\projs\\\\OverlaySession_v1.5\\\\OverlaySession\\\\app\\\\.cxx\\\\cmake\\\\debug\\\\prefab\\\\arm64-v8a\\\\prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003dC:\\\\Users\\\\bloo\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.1.6352462\\\\build\\\\cmake\\\\android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darm64-v8a\",\n    \"-DANDROID_NDK\\u003dC:\\\\Users\\\\bloo\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.1.6352462\",\n    \"-DANDROID_PLATFORM\\u003dandroid-29\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darm64-v8a\",\n    \"-DCMAKE_ANDROID_NDK\\u003dC:\\\\Users\\\\bloo\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.1.6352462\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003dD:\\\\projs\\\\OverlaySession_v1.5\\\\OverlaySession\\\\app\\\\build\\\\intermediates\\\\cmake\\\\debug\\\\obj\\\\arm64-v8a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003dC:\\\\Users\\\\bloo\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d29\",\n    \"-DANDROID_STL\\u003dc++_shared\"\n  ]\n}\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error at CMakeLists.txt:24 (find_package):\\n  Could not find a package configuration file provided by \\\"loader\\\" with any\\n  of the following names:\\n\\n    loaderConfig.cmake\\n    loader-config.cmake\\n\\n  Add the installation prefix of \\\"loader\\\" to CMAKE_PREFIX_PATH or set\\n  \\\"loader_DIR\\\" to a directory containing one of the above files.  If \\\"loader\\\"\\n  provides a separate development package or SDK, be sure it has been\\n  installed.\\n\\n\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "ERROR",
+    "message": "CMake Error at D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt:24 (find_package):\r\n  Could not find a package configuration file provided by \"loader\" with any\r\n  of the following names:\r\n\r\n    loaderConfig.cmake\r\n    loader-config.cmake\r\n\r\n  Add the installation prefix of \"loader\" to CMAKE_PREFIX_PATH or set\r\n  \"loader_DIR\" to a directory containing one of the above files.  If \"loader\"\r\n  provides a separate development package or SDK, be sure it has been\r\n  installed.\r\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring incomplete, errors occurred!\\nSee also \\\"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log\\\".\",\"type\":\"message\"}\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring incomplete, errors occurred!\r\nSee also \"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log\".",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"errorMessage\":\"Configuration failed.\",\"inReplyTo\":\"configure\",\"type\":\"error\"}\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "ERROR",
+    "message": "Configuration failed.",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: Error configuring CMake server (C:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin).\r\nCMake Error at CMakeLists.txt:24 (find_package):\n  Could not find a package configuration file provided by \"loader\" with any\n  of the following names:\n\n    loaderConfig.cmake\n    loader-config.cmake\n\n  Add the installation prefix of \"loader\" to CMAKE_PREFIX_PATH or set\n  \"loader_DIR\" to a directory containing one of the above files.  If \"loader\"\n  provides a separate development package or SDK, be sure it has been\n  installed.\n\n\nConfiguring incomplete, errors occurred!\nSee also \"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log\".\n",
+    "file": "D:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  }
+]

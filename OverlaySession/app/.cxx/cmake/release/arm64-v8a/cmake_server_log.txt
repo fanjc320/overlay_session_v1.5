@@ -1,0 +1,143 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp",
+  "buildDirectory": "D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_FIND_ROOT_PATH\u003dD:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\.cxx\\cmake\\release\\prefab\\arm64-v8a\\prefab",
+    "-DCMAKE_BUILD_TYPE\u003dRelease",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462",
+    "-DANDROID_PLATFORM\u003dandroid-29",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\projs\\OverlaySession_v1.5\\OverlaySession\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a",
+    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\bloo\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d29",
+    "-DANDROID_STL\u003dc++_shared"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake","C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake","../../../.cxx/cmake/release/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/loader/loader-config-version.cmake","../../../.cxx/cmake/release/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/loader/loader-config.cmake"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"C:/Users/bloo/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Release","projects":[{"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","name":"overlaysession","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","targets":[{"artifacts":["D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a/libqxr-app-common.a"],"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=gnu++14 -Wall -O2 -DNDEBUG  -fPIC  ","includePath":[{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/AppCommon/cpp"},{"path":"C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/sources/android/native_app_glue"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/Common/Log"},{"isSystem":true,"path":"C:/Users/bloo/.gradle/caches/transforms-2/files-2.1/02e6b18bfe587facab2641065048265d/jetified-loader-release/prefab/modules/openxr_loader/include"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/ThirdParty/glm"}],"isGenerated":false,"language":"CXX","sources":["AppCommon/cpp/AppCommon.cpp"]}],"fullName":"libqxr-app-common.a","linkerLanguage":"CXX","name":"qxr-app-common","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","sysroot":"C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","name":"qxr-thirdparty-openxr","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","type":"INTERFACE_LIBRARY"},{"artifacts":["D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a/libqxr-thirdparty-imgui.a"],"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=gnu++14 -Wall -O2 -DNDEBUG  -fPIC  ","includePath":[{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/ThirdParty/imgui"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/XrCompositor/compositor/src/main/cpp/src"}],"isGenerated":false,"language":"CXX","sources":["ThirdParty/imgui/backends/imgui_impl_opengl3.cpp","ThirdParty/imgui/backends/imgui_impl_android.cpp","ThirdParty/imgui/imgui.cpp","ThirdParty/imgui/imgui_draw.cpp","ThirdParty/imgui/imgui_widgets.cpp","ThirdParty/imgui/imgui_tables.cpp"]}],"fullName":"libqxr-thirdparty-imgui.a","linkerLanguage":"CXX","name":"qxr-thirdparty-imgui","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","sysroot":"C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["D:/projs/OverlaySession_v1.5/OverlaySession/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"],"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=gnu++14 -Wall -O2 -DNDEBUG  -fPIC  ","defines":["native_lib_EXPORTS"],"includePath":[{"path":"C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/sources/android/native_app_glue"},{"isSystem":true,"path":"C:/Users/bloo/.gradle/caches/transforms-2/files-2.1/02e6b18bfe587facab2641065048265d/jetified-loader-release/prefab/modules/openxr_loader/include"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/AppCommon/cpp"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/Common/GL/cpp"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/Common/DataStructures/cpp"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/ThirdParty/tinyobjloader"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/ThirdParty/glm"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/ThirdParty/imgui"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/XrCompositor/compositor/src/main/cpp/src"}],"isGenerated":false,"language":"CXX","sources":["native-lib.cpp","openxr_overlay_app.cpp"]}],"fullName":"libnative-lib.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog -landroid libnative_app_glue.a -lEGL -lGLESv3 libqxr-app-common.a libqxr-common-gl.a libqxr-thirdparty-tinyobj.a libqxr-thirdparty-imgui.a libnative_app_glue.a -lEGL C:\\Users\\bloo\\.gradle\\caches\\transforms-2\\files-2.1\\02e6b18bfe587facab2641065048265d\\jetified-loader-release\\prefab\\modules\\openxr_loader\\libs\\android.arm64-v8a\\libopenxr_loader.so libqxr-common-log.a -llog -latomic -lm","linkerLanguage":"CXX","name":"native-lib","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","sysroot":"C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a/libqxr-common-gl.a"],"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=gnu++14 -Wall -O2 -DNDEBUG  -fPIC  ","includePath":[{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/Common/GL/cpp"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/Common/Log"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/ThirdParty/glm"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/ThirdParty/tinyobjloader"},{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/Common/DataStructures/cpp"}],"isGenerated":false,"language":"CXX","sources":["Common/GL/cpp/Geometry.cpp","Common/GL/cpp/KtxLoader.cpp","Common/GL/cpp/RenderTarget.cpp","Common/GL/cpp/Shader.cpp"]}],"fullName":"libqxr-common-gl.a","linkerLanguage":"CXX","name":"qxr-common-gl","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","sysroot":"C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","name":"qxr-common-data-structures","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","type":"INTERFACE_LIBRARY"},{"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","name":"qxr-thirdparty-glm","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","type":"INTERFACE_LIBRARY"},{"artifacts":["D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a/libqxr-thirdparty-tinyobj.a"],"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=gnu++14 -Wall -O2 -DNDEBUG  -fPIC  ","isGenerated":false,"language":"CXX","sources":["ThirdParty/tinyobjloader/tiny_obj_loader.cc"]}],"fullName":"libqxr-thirdparty-tinyobj.a","linkerLanguage":"CXX","name":"qxr-thirdparty-tinyobj","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","sysroot":"C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a/libnative_app_glue.a"],"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC  ","includePath":[{"path":"C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/sources/android/native_app_glue"}],"isGenerated":false,"language":"C","sources":["C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/sources/android/native_app_glue/android_native_app_glue.c"]}],"fullName":"libnative_app_glue.a","linkerLanguage":"C","name":"native_app_glue","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","sysroot":"C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a/libqxr-common-log.a"],"buildDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/release/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC  ","includePath":[{"path":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/Common/Log"}],"isGenerated":false,"language":"C","sources":["Common/Log/LogUtils.c"]}],"fullName":"libqxr-common-log.a","linkerLanguage":"C","name":"qxr-common-log","sourceDirectory":"D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp","sysroot":"C:/Users/bloo/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

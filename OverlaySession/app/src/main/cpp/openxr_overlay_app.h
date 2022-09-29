@@ -31,11 +31,13 @@
 #include "Geometry.h"
 #include "KtxLoader.h"
 #include "Shader.h"
-#include "common/xr_linear.h"
+//#include "common/xr_linear.h"
+#include "xr_linear.h"
 
 #include "imgui.h"
 #include "imgui_internal.h"
-#include "imgui_impl_opengl3.h"
+//#include "imgui_impl_opengl3.h"
+#include "backends/imgui_impl_opengl3.h"
 
 #define TAG "OpenXR overlay"
 

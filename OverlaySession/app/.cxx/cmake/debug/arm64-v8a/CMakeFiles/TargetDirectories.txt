@@ -1,0 +1,9 @@
+D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/qxr-app-common.dir
+D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native_app_glue.dir
+D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/qxr-common-log.dir
+D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/qxr-common-gl.dir
+D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/qxr-thirdparty-tinyobj.dir
+D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/qxr-thirdparty-imgui.dir
+D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir
+D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/projs/OverlaySession_v1.5/OverlaySession/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

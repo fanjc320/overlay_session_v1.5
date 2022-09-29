@@ -39,17 +39,18 @@ void OpenXRApp::endOverlay() {
 }
 
 void OpenXRApp::update() {
+  LOGI("overlay session update begin ");
   if (mOverlayHided.load() && mSessionStopped) {
-    // LOGI("overlay session sleep ");
+     LOGI("overlay session sleep ");
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
     return;
   }
-  // LOGI("overlay session update ... ");
+   LOGI("overlay session update ... ");
 
   if (mRequestExitSession.load()) {
-    // LOGI("mRequestExitSession");
+     LOGI("overlay mRequestExitSession");
     if (XR_SUCCEEDED(xrRequestExitSession(engine.state.xrSession))) {
-      LOGI("mRequestExitSession succeed");
+      LOGI("overlay mRequestExitSession succeed");
       mRequestExitSession.store(false);
     }
   }
@@ -62,9 +63,11 @@ void OpenXRApp::update() {
 
   if (engine.sessionState == XR_SESSION_STATE_EXITING) {
     stopOverlayXR();
+    LOGI("overlay session stopOverlayXR ... ");
     return;
   }
   if (engine.ready) {
+      LOGI("overlay session rendering ... ");
     rendering();
   }
 }
@@ -133,10 +136,12 @@ void OpenXRApp::initOpenXR() {
 
 void OpenXRApp::initRenderingResources() {
   AppCommon::app_init_display(&engine);
-
+  LOGI("overlay  initRenderingResources ImGui");
   // Setup ImGui
   IMGUI_CHECKVERSION();
+  LOGI("overlay  initRenderingResources ImGui 11");
   ImGui::CreateContext();
+  LOGI("overlay  initRenderingResources ImGui 22");
   ImGuiIO &io = ImGui::GetIO();
   (void)io;
   io.IniFilename =
@@ -149,11 +154,11 @@ void OpenXRApp::initRenderingResources() {
   // Init ImGui backend
   bool imguiInitRes = ImGui_ImplOpenGL3_Init("#version 300 es");
   if (!imguiInitRes) {
-    LOGI("AndroidXrPerfHUD::Initialize", "Failed to init ImGui");
+    LOGI("overlay initRenderingResources AndroidXrPerfHUD::Initialize", "Failed to init ImGui");
     assert(0);
   }
 
-  LOGI("initRenderingResources");
+  LOGI("overlay initRenderingResources end");
 }
 
 void OpenXRApp::initSwapchains() {
@@ -365,7 +370,7 @@ void OpenXRApp::draw(uint32_t imgIndex) {
   glFramebufferTexture2D(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_TEXTURE_2D,
                          engine.depthBuffer, 0);
 
-  ImGui_ImplOpenGL3_BackupRestoreGlStates(true);
+//  ImGui_ImplOpenGL3_BackupRestoreGlStates(true);
 
   GLint scissor[4];
   scissor[0] = 0;
@@ -383,7 +388,7 @@ void OpenXRApp::draw(uint32_t imgIndex) {
 
   ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 
-  ImGui_ImplOpenGL3_BackupRestoreGlStates(false);
+//  ImGui_ImplOpenGL3_BackupRestoreGlStates(false);
 }
 
 void OpenXRApp::PrepareGUIData() {
@@ -434,8 +439,9 @@ void OpenXRApp::setBatteryLevel(int level) { mBatteryLevel.store(level); }
 
 int main() {
   auto &app = OpenXRApp::getInstance();
-
+    LOGI("Test main ");
   app.initRenderingResources();
+  LOGI("Test overlay main ");
 
   while (!app.mShutdown.load() || !app.mSessionStopped) {
     app.update();

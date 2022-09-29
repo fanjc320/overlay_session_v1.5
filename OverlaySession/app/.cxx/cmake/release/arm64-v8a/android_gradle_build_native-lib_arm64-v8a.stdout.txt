@@ -1,0 +1,10 @@
+ninja: Entering directory `D:\projs\OverlaySession_v1.5\OverlaySession\app\.cxx\cmake\release\arm64-v8a'
+[1/2] Building CXX object CMakeFiles/native-lib.dir/openxr_overlay_app.cpp.o
+D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/openxr_overlay_app.cpp:157:73: warning: data argument not used by format string [-Wformat-extra-args]
+    LOGI("overlay initRenderingResources AndroidXrPerfHUD::Initialize", "Failed to init ImGui");
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+D:/projs/OverlaySession_v1.5/OverlaySession/app/src/main/cpp/openxr_overlay_app.h:45:53: note: expanded from macro 'LOGI'
+  ((void)__android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__))
+                                                    ^~~~~~~~~~~
+1 warning generated.
+[2/2] Linking CXX shared library D:\projs\OverlaySession_v1.5\OverlaySession\app\build\intermediates\cmake\release\obj\arm64-v8a\libnative-lib.so
